@@ -3,8 +3,8 @@ import os.path
 import onnxruntime
 import yaml
 from ovos_plugin_manager.templates.tts import TTS
-
 from ovos_tts_plugin_matxa_multispeaker_cat.tts import get_tts, DEFAULT_ACCENT, DEFAULT_SPEAKER_ID
+from ovos_utils import classproperty
 
 
 class MatxaCatalanTTSPlugin(TTS):
@@ -62,8 +62,8 @@ class MatxaCatalanTTSPlugin(TTS):
                 vocoder_config=self.vocoder_config)
         return wav_file, None
 
-    @property
-    def available_languages(self) -> set:
+    @classproperty
+    def available_languages(cls) -> set:
         """Return languages supported by this TTS implementation in this state
         This property should be overridden by the derived class to advertise
         what languages that engine supports.
