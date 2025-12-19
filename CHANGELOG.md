@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.0.6a3](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/tree/0.0.6a3) (2025-12-19)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/compare/0.0.6a2...0.0.6a3)
+
+**Merged pull requests:**
+
+- chore\(deps\): update actions/checkout action to v6 [\#14](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update dependency python to 3.14 [\#13](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/pull/13) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.6a2](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/tree/0.0.6a2) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/compare/0.0.6a1...0.0.6a2)
