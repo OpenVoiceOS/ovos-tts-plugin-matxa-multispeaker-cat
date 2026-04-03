@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.7a1](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/tree/0.0.7a1) (2026-04-03)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/compare/0.0.6a4...0.0.7a1)
+
+**Merged pull requests:**
+
+- fix\(i18n\): normalize locale folders to canonical BCP-47 [\#21](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/pull/21) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [0.0.6a4](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/tree/0.0.6a4) (2025-12-19)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-tts-plugin-matxa-multispeaker-cat/compare/0.0.6a3...0.0.6a4)
