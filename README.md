@@ -71,12 +71,23 @@ Set your OVOS language to `ca`, `ca-ba`, `ca-va`, or `ca-nw` and leave `voice` u
 
 All available Catalan voices (and every other supported voice) are listed in [VOICES.md](https://github.com/TigreGotico/phoonnx/blob/dev/VOICES.md) — that is the canonical reference for voice IDs to use in your config.
 
-## Credits
+Set your OVOS language to `ca`, `ca-ba`, `ca-va`, or `ca-nw` and leave `voice` unset — phoonnx will select the appropriate Matxa dialect variant automatically.
+
+## Other available Matxa variants
+
+| Voice ID | Vocoder | Notes |
+|----------|---------|-------|
+| `OpenVoiceOS/matxa-cat-multispeaker-vocos-2stage` | alVoCat/Vocos | Recommended — closest to original plugin |
+| `OpenVoiceOS/matxa-cat-multispeaker-wavenext-2stage` | WaveNext | Two-stage with WaveNext vocoder |
+| `OpenVoiceOS/matxa-cat-multispeaker-wavenext` | WaveNext (baked in) | End-to-end, no separate vocoder |
+| `OpenVoiceOS/matxa-cat-multispeaker-hifigan` | HiFi-GAN | End-to-end |
+| `OpenVoiceOS/matxa-cat-multiaccent-wavenext` | WaveNext | Multiaccent variant |
+| `OpenVoiceOS/matxa-cat-central-graphemes-v2` | — | Grapheme-based, no espeak-ng required |
 
 This plugin was developed by [TigreGotico](https://github.com/TigreGotico) for OpenVoiceOS under the ILENIA project.
 
-![img.png](img.png)
-> This plugin was funded by the Ministerio para la Transformación Digital y de la Función Pública and Plan de Recuperación, Transformación y Resiliencia - Funded by EU – NextGenerationEU within the framework of the project ILENIA with reference 2022/TL22/00215337
+Original plugin by the OpenVoiceOS community.
+🍵 [Matxa-TTS](https://huggingface.co/projecte-aina/matxa-tts-cat-multiaccent) and 🥑 [alVoCat](https://huggingface.co/projecte-aina/alvocat-vocos-22khz) by Projecte AINA.
 
 ![img_1.png](img_1.png)
 > 🍵 Matxa-TTS and 🥑 alVoCat were funded by the Generalitat de Catalunya within the framework of [Projecte AINA](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/aina).
