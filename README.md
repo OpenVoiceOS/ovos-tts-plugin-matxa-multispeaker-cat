@@ -84,7 +84,7 @@ Set your OVOS language to `ca`, `ca-ba`, `ca-va`, or `ca-nw` and leave `voice` u
 | `OpenVoiceOS/matxa-cat-multiaccent-wavenext` | WaveNext | Multiaccent variant |
 | `OpenVoiceOS/matxa-cat-central-graphemes-v2` | — | Grapheme-based, no espeak-ng required |
 
-This plugin was developed by [TigreGotico](https://tigregotico.pt) for OpenVoiceOS under the ILENIA project.
+This plugin was developed by [TigreGotico](https://tigregotico.pt) for OpenVoiceOS under the [ILENIA](https://proyectoilenia.es) project.
 
 Original plugin by the OpenVoiceOS community.
 🍵 [Matxa-TTS](https://huggingface.co/projecte-aina/matxa-tts-cat-multiaccent) and 🥑 [alVoCat](https://huggingface.co/projecte-aina/alvocat-vocos-22khz) by Projecte AINA.
