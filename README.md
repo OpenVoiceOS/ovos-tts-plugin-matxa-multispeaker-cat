@@ -44,8 +44,8 @@ The direct equivalent of the old plugin is `OpenVoiceOS/matxa-cat-multispeaker-v
 **After:**
 ```json
 "tts": {
-  "module": "phoonnx",
-  "phoonnx": {
+  "module": "ovos-tts-plugin-phoonnx",
+  "ovos-tts-plugin-phoonnx": {
     "voice": "OpenVoiceOS/matxa-cat-multispeaker-vocos-2stage",
     "speaker_id": 7
   }
@@ -73,8 +73,10 @@ All available Catalan voices (and every other supported voice) are listed in [VO
 
 ## Credits
 
-Original plugin by the OpenVoiceOS community.
-🍵 [Matxa-TTS](https://huggingface.co/projecte-aina/matxa-tts-cat-multiaccent) and 🥑 [alVoCat](https://huggingface.co/projecte-aina/alvocat-vocos-22khz) by Projecte AINA.
+This plugin was developed by [TigreGotico](https://github.com/TigreGotico) for OpenVoiceOS under the ILENIA project.
+
+![img.png](img.png)
+> This plugin was funded by the Ministerio para la Transformación Digital y de la Función Pública and Plan de Recuperación, Transformación y Resiliencia - Funded by EU – NextGenerationEU within the framework of the project ILENIA with reference 2022/TL22/00215337
 
 ![img_1.png](img_1.png)
 > 🍵 Matxa-TTS and 🥑 alVoCat were funded by the Generalitat de Catalunya within the framework of [Projecte AINA](https://politiquesdigitals.gencat.cat/ca/economia/catalonia-ai/aina).
