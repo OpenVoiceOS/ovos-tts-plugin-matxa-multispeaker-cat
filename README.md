@@ -44,8 +44,8 @@ The direct equivalent of the old plugin is `OpenVoiceOS/matxa-cat-multispeaker-v
 **After:**
 ```json
 "tts": {
-  "module": "phoonnx",
-  "phoonnx": {
+  "module": "ovos-tts-plugin-phoonnx",
+  "ovos-tts-plugin-phoonnx": {
     "voice": "OpenVoiceOS/matxa-cat-multispeaker-vocos-2stage",
     "speaker_id": 7
   }
@@ -71,7 +71,20 @@ Set your OVOS language to `ca`, `ca-ba`, `ca-va`, or `ca-nw` and leave `voice` u
 
 All available Catalan voices (and every other supported voice) are listed in [VOICES.md](https://github.com/TigreGotico/phoonnx/blob/dev/VOICES.md) — that is the canonical reference for voice IDs to use in your config.
 
-## Credits
+Set your OVOS language to `ca`, `ca-ba`, `ca-va`, or `ca-nw` and leave `voice` unset — phoonnx will select the appropriate Matxa dialect variant automatically.
+
+## Other available Matxa variants
+
+| Voice ID | Vocoder | Notes |
+|----------|---------|-------|
+| `OpenVoiceOS/matxa-cat-multispeaker-vocos-2stage` | alVoCat/Vocos | Recommended — closest to original plugin |
+| `OpenVoiceOS/matxa-cat-multispeaker-wavenext-2stage` | WaveNext | Two-stage with WaveNext vocoder |
+| `OpenVoiceOS/matxa-cat-multispeaker-wavenext` | WaveNext (baked in) | End-to-end, no separate vocoder |
+| `OpenVoiceOS/matxa-cat-multispeaker-hifigan` | HiFi-GAN | End-to-end |
+| `OpenVoiceOS/matxa-cat-multiaccent-wavenext` | WaveNext | Multiaccent variant |
+| `OpenVoiceOS/matxa-cat-central-graphemes-v2` | — | Grapheme-based, no espeak-ng required |
+
+This plugin was developed by [TigreGotico](https://tigregotico.pt) for OpenVoiceOS under the [ILENIA](https://proyectoilenia.es) project.
 
 Original plugin by the OpenVoiceOS community.
 🍵 [Matxa-TTS](https://huggingface.co/projecte-aina/matxa-tts-cat-multiaccent) and 🥑 [alVoCat](https://huggingface.co/projecte-aina/alvocat-vocos-22khz) by Projecte AINA.
